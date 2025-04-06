@@ -12,11 +12,11 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get("/index", (req, res) => {
+app.get("/Front-branch-name/index", (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get("/index.html", (req, res) => {
+app.get("/Front-branch-name/index.html", (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
