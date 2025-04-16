@@ -10,6 +10,13 @@ const port = 8000;
 // css style 
 app.use(express.static(path.join(__dirname, "Front-branch-name")));
 app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/1st-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/2nd-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/3rd-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/4th-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/5th-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/6th-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/7th-sem")));
+app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/8th-sem")));
 
 
 
@@ -85,6 +92,137 @@ app.get("/Front-semester-name/Mechanical/1st-sem/1st-sem-2023/download-pdf-23.ht
 app.get("/Front-semester-name/Mechanical/1st-sem/1st-sem-2024/download-pdf-24.html",(req,res)=>{
     res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/1st-sem/1st-sem-2024","download-pdf-24.html")) // 1st sem 2020
 });
+
+
+// Mechanical 2nd sem years 
+app.get("/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2020","download-pdf-20.html")); //2nd sem 2020
+});
+app.get("/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2021","download-pdf-21.html")); //2nd sem 2021
+});
+app.get("/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2022","download-pdf-22.html")); //2nd sem 2022
+});
+app.get("/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2023","download-pdf-23.html")); //2nd sem 2023
+});
+app.get("/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/2nd-sem/2nd-sem-2024","download-pdf-24.html")); //2nd sem 2024
+});
+
+
+//Mechanical 3rd sem years
+app.get("/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2020","download-pdf-20.html")); //3rd sem 2020
+});
+app.get("/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2021","download-pdf-21.html")); //3rd sem 2021
+});
+app.get("/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2022","download-pdf-22.html")); //3rd sem 2022
+});
+app.get("/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2023","download-pdf-23.html")); //3rd sem 2023
+});
+app.get("/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/3rd-sem/3rd-sem-2024","download-pdf-24.html")); //3rd sem 2024
+});
+
+
+//Mechanical 4th sem years
+app.get("/Front-semester-name/Mechanical/4th-sem/4th-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/4th-sem/4th-sem-2020","download-pdf-20.html")); //4th sem 2020
+});
+app.get("/Front-semester-name/Mechanical/4th-sem/4th-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/4th-sem/4th-sem-2021","download-pdf-21.html")); //4th sem 2021
+});
+app.get("/Front-semester-name/Mechanical/4th-sem/4th-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/4th-sem/4th-sem-2022","download-pdf-22.html")); //4th sem 2022
+});
+app.get("/Front-semester-name/Mechanical/4th-sem/4th-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/4th-sem/4th-sem-2023","download-pdf-23.html")); //4th sem 2023
+});
+app.get("/Front-semester-name/Mechanical/4th-sem/4th-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/4th-sem/4th-sem-2024","download-pdf-24.html")); //4th sem 2024
+});
+
+
+//Mechanical 5th sem years
+app.get("/Front-semester-name/Mechanical/5th-sem/5th-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/5th-sem/5th-sem-2020","download-pdf-20.html")); //5th sem 2020
+});
+app.get("/Front-semester-name/Mechanical/5th-sem/5th-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/5th-sem/5th-sem-2021","download-pdf-21.html")); //5th sem 2021
+});
+app.get("/Front-semester-name/Mechanical/5th-sem/5th-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/5th-sem/5th-sem-2022","download-pdf-22.html")); //5th sem 2022
+});
+app.get("/Front-semester-name/Mechanical/5th-sem/5th-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/5th-sem/5th-sem-2023","download-pdf-23.html")); //5th sem 2023
+});
+app.get("/Front-semester-name/Mechanical/5th-sem/5th-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/5th-sem/5th-sem-2024","download-pdf-24.html")); //5th sem 2024
+});
+
+
+
+//Mechanical 6th sem years
+app.get("/Front-semester-name/Mechanical/6th-sem/6th-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/6th-sem/6th-sem-2020","download-pdf-20.html")); //6th sem 2020
+});
+app.get("/Front-semester-name/Mechanical/6th-sem/6th-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/6th-sem/6th-sem-2021","download-pdf-21.html")); //6th sem 2021
+});
+app.get("/Front-semester-name/Mechanical/6th-sem/6th-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/6th-sem/6th-sem-2022","download-pdf-22.html")); //6th sem 2022
+});
+app.get("/Front-semester-name/Mechanical/6th-sem/6th-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/6th-sem/6th-sem-2023","download-pdf-23.html")); //6th sem 2023
+});
+app.get("/Front-semester-name/Mechanical/6th-sem/6th-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/6th-sem/6th-sem-2024","download-pdf-24.html")); //6th sem 2024
+});
+
+
+
+//Mechanical 7th sem years
+app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/7th-sem/7th-sem-2020","download-pdf-20.html")); //7th sem 2020
+});
+app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/7th-sem/7th-sem-2021","download-pdf-21.html")); //7th sem 2021
+});
+app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/7th-sem/7th-sem-2022","download-pdf-22.html")); //7th sem 2022
+});
+app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/7th-sem/7th-sem-2023","download-pdf-23.html")); //7th sem 2023
+});
+app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/7th-sem/7th-sem-2024","download-pdf-24.html")); //7th sem 2024
+});
+
+
+//Mechanical 8th sem years
+app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-2020/download-pdf-20.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem/8th-sem-2020","download-pdf-20.html")); //8th sem 2020
+});
+app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-2021/download-pdf-21.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem/8th-sem-2021","download-pdf-21.html")); //8th sem 2021
+});
+app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-2022/download-pdf-22.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem/8th-sem-2022","download-pdf-22.html")); //8th sem 2022
+});
+app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-2023/download-pdf-23.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem/8th-sem-2023","download-pdf-23.html")); //8th sem 2023
+});
+app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-2024/download-pdf-24.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem/8th-sem-2024","download-pdf-24.html")); //8th sem 2024
+});
+
+
+
 
 
 // port
