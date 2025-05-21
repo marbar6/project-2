@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname,"/Front-semester-name/Mechanical/8th-
 
 
 
-// Front semester
+// Navbar add
 
 app.get("/",(req,res)=>{
     res.sendFile(path.join("D:/project/PYQ/Front-branch-name","index.html"));
@@ -45,6 +45,9 @@ app.get("/signin.html",(req,res)=>{
 app.get("/signup.html",(req,res)=>{
     res.sendFile(path.join("D:/project/PYQ/Front-branch-name/profile-page","sign-up.html")); //Sign up
 });
+
+
+
 
 
 // Mechanical Branch
@@ -75,6 +78,39 @@ app.get("/Front-semester-name/Mechanical/7th-sem/7th-sem-year.html",(req,res)=>{
 app.get("/Front-semester-name/Mechanical/8th-sem/8th-sem-year.html",(req,res)=>{
     res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Mechanical/8th-sem","8th-sem-year.html")); // 8th semester
 });
+
+//working on civil semester
+
+// Civil Branch
+app.get("/Front-semester-name/Civil/civil-semester.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil","civil-semester.html"));
+});
+app.get("/Front-semester-name/Civil/1st-sem/1st-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/1st-sem","1st-sem-year.html"));  //1st semester 
+});
+app.get("/Front-semester-name/Civil/2nd-sem/2nd-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/2nd-sem","2nd-sem-year.html")); //2nd semester
+});
+app.get("/Front-semester-name/Civil/3rd-sem/3rd-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/3rd-sem","3rd-sem-year.html")); //3rd semester
+});
+app.get("/Front-semester-name/Civil/4th-sem/4th-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/4th-sem","4th-sem-year.html")); //4th semester
+});
+app.get("/Front-semester-name/Civil/5th-sem/5th-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/5th-sem","5th-sem-year.html")); //5th semester
+});
+app.get("/Front-semester-name/Civil/6th-sem/6th-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/6th-sem","6th-sem-year.html")); // 6th semester
+});
+app.get("/Front-semester-name/Civil/7th-sem/7th-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/7th-sem","7th-sem-year.html")); // 7th semester
+});
+app.get("/Front-semester-name/Civil/8th-sem/8th-sem-year.html",(req,res)=>{
+    res.sendFile(path.join("D:/project/PYQ/Front-semester-name/Civil/8th-sem","8th-sem-year.html")); // 8th semester
+});
+
+
 
 // Mechanical 1st sem years
 app.get("/Front-semester-name/Mechanical/1st-sem/1st-sem-2020/download-pdf-20.html",(req,res)=>{
